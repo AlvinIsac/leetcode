@@ -10,7 +10,7 @@ from typing import List
 #             nums.sort()
 #             return nums.index(target)
 
-
+# run time beats 100 % memory 72 %
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left = 0
